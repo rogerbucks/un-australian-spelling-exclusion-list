@@ -31,8 +31,11 @@ If you have suggestions for additional words to add to the exclusion list, pleas
 
 # Tools Used
 
+On a MacBook Pro:
 - Visual Studio Code for editing the text files.
 - Microsoft Word for testing the exclusion list.
 - GitHub for version control and collaboration.
 - Github Copilot for generating the list of words and their forms based on the custom prompt.
 - Daniel Imms - https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+- Python for expanding the base verbs into all their forms. (Python script: expand_ize.py)
+- Hunspell for spell-checking the generated words against US English. https://github.com/hunspell/hunspell
