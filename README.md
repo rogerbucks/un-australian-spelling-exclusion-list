@@ -53,3 +53,19 @@ On a MacBook Pro:
 - Daniel Imms - https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
 - Python for expanding the base verbs into all their forms. (Python script: `src/generate_word_forms.py`)
 - Hunspell for flagging generated words that may merit manual review against US English. https://github.com/hunspell/hunspell
+
+## Supporting Wordlists
+
+This project integrates data from the following publicly available wordlists:
+
+1. **[dwyl/english-words](https://github.com/dwyl/english-words)**
+   - License: Unlicense
+   - Content: Over 466,000 English words, including -ize verbs. Available in plain text and JSON formats.
+
+2. **[dariusk/corpora](https://github.com/dariusk/corpora)**
+   - License: CC0
+   - Content: JSON-based corpora with common nouns, adjectives, and verbs. Useful for linguistic experiments.
+
+3. **[atebits/Words](https://github.com/atebits/Words)**
+   - License: CC0
+   - Content: Wordlist from the Letterpress game, including US, UK, and Australian spellings.
