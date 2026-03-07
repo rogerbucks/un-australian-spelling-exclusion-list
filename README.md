@@ -8,6 +8,8 @@ The list is organized alphabetically.
 
 This list was produced using a custom prompt that generated a comprehensive list of all the different forms of the "-ize" words in US English, including noun forms, adjective forms, verb conjugations, and direct synonym alternates. The prompt also ensured that any words already present in the existing dictionary were ignored and not duplicated. (See Dictionary Creation Prompt.md for more details on the prompt used to generate the list with the forms of each word.)
 
+Hunspell is used as a review aid for generated forms, not as a hard filter. Any unrecognized words are written to `unknown_words.txt` for optional manual inspection before merging the expanded list into the exclusion dictionary.
+
 # Installation Pre-requisites
 
 The installation notes below are intended for the Microsoft Office 365 installation.
@@ -38,4 +40,4 @@ On a MacBook Pro:
 - Github Copilot for generating the list of words and their forms based on the custom prompt.
 - Daniel Imms - https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
 - Python for expanding the base verbs into all their forms. (Python script: expand_ize.py)
-- Hunspell for spell-checking the generated words against US English. https://github.com/hunspell/hunspell
+- Hunspell for flagging generated words that may merit manual review against US English. https://github.com/hunspell/hunspell

@@ -27,10 +27,13 @@ cat baseverbs.txt missed_baseverbs.txt | sort -fu > baseverbs_merged.txt \
 # 2. Expand base verbs into all word forms
 python3 expand_ize.py < baseverbs.txt | sort > newwords.txt
 
-# 3. Spell-check against US English — review unknown_words.txt and remove any invalid base verbs from baseverbs.txt, then repeat from step 2
+# 3. Spell-check against US English for review only — dump any unrecognized generated forms to unknown_words.txt, but do not remove base verbs from baseverbs.txt on that basis alone
 hunspell -d en_US -l < newwords.txt | sort -u > unknown_words.txt
 
-# 4. Merge new words into the dictionary, sort case-insensitively (diacritic-insensitive), and deduplicate
+# Review unknown_words.txt manually if desired. Since this is an exclusion list, keep the generated words unless you identify something clearly invalid.
+# Do not merge unknown_words.txt separately; it is only a review report because all of its entries already come from newwords.txt.
+
+# 4. Merge all generated words into the dictionary, sort case-insensitively (diacritic-insensitive), and deduplicate
 cat newwords.txt ExcludeDictionaryEN0c09-additions.lex \
   | LC_ALL=en_US.UTF-8 sort -fu \
   > lex_merged.txt \
