@@ -69,3 +69,9 @@ This project integrates data from the following publicly available wordlists:
 3. **[atebits/Words](https://github.com/atebits/Words)**
    - License: CC0
    - Content: Wordlist from the Letterpress game, including US, UK, and Australian spellings.
+
+## Investigation notes
+
+This procedure is heavily dependent on the Word document you are editing being set to English (AU). (Word for Mac -> Review menu -> Language -> Mark Selected Text As -> English (Aus). I switch the auto-detect language on, but set default for English (Australia).
+
+For future, it seems that Word also scans for "ExcludeDictionary.lex" before the language-specific version on Mac... which may allow words to be removed from all languages. Not tested though!
