@@ -32,7 +32,7 @@ For all other Microsoft Word version installation instructions, please refer to 
 - Close Microsoft Word.
 - Navigate to the folder where the existing exclusion file lives. 
   - On Windows: Open the following folder in Windows Browser `%AppData%\Microsoft\UProof`
-  - On Mac: Open the following folder in Finder `~/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/Word`
+  - On Mac: Open the following folder in Finder `~/Library/Group Containers/UBF8T346G9.Office/`
 - Open the `ExcludeDictionaryEN0C09.lex` file in a text editor.
   - If the file doesn't exist, create a new text file in that folder and name it `ExcludeDictionaryEN0C09.lex`.
 - Copy the content of the `data/ExcludeDictionaryEN0c09-additions.lex` file to the `ExcludeDictionaryEN0C09.lex` file you opened in the previous step.
