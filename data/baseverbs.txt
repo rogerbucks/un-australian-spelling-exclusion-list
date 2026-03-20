@@ -373,7 +373,6 @@ antiquarianize
 antisepticize
 antiseptize
 antistrophize
-antithesize
 apaesthetize
 apathize
 apesthetize
@@ -396,7 +395,6 @@ arborize
 archaize
 arcticize
 arithmetize
-armsize
 aromatize
 arsenicize
 arterialize
@@ -511,7 +509,6 @@ cantharidize
 cantonize
 capitalize
 caponize
-capsize
 capsulize
 caramelize
 carbolize
@@ -858,7 +855,6 @@ desentimentalize
 desexualize
 desiliconize
 desilverize
-desize
 desocialize
 despecialize
 despiritualize
@@ -964,7 +960,6 @@ dolomize
 domesticize
 dooxidize
 dorize
-downsize
 doxologize
 dragonize
 dramatize
@@ -1449,7 +1444,6 @@ kaolinize
 katabolize
 keratinize
 ketonize
-kingsize
 kjeldahlize
 kudize
 kyanize
@@ -1597,7 +1591,6 @@ micasize
 microminiaturize
 micronize
 microscopize
-midsize
 migniardize
 militarize
 millionize
@@ -1660,7 +1653,6 @@ motorize
 movieize
 mozemize
 mullenize
-multisize
 municipalize
 muscovitize
 muscularize
@@ -1760,7 +1752,6 @@ ostracize
 outhyperbolize
 outorganize
 outprize
-outsize
 outtyrannize
 ovalize
 ovariectomize
@@ -1814,7 +1805,6 @@ overrationalize
 overromanticize
 oversensitize
 oversentimentalize
-oversize
 oversocialize
 overspecialize
 oversystematize
@@ -1829,7 +1819,6 @@ oxytonize
 ozonize
 paeanize
 paganize
-pagesize
 palatalize
 palatize
 palladinize
@@ -1961,7 +1950,6 @@ pilgrimize
 pillarize
 pillorize
 pinealectomize
-pintsize
 piratize
 pize
 plagiarize
@@ -2209,7 +2197,6 @@ rescrutinize
 reseize
 resensitize
 resinize
-resize
 resocialize
 resolemnize
 respectabilize
@@ -2245,7 +2232,6 @@ rhotacize
 rhythmicize
 rhythmize
 ridiculize
-rightsize
 rigidize
 riotize
 ritualize
@@ -2356,7 +2342,6 @@ sinicize
 sirenize
 sironize
 sisterize
-size
 skeletonize
 skepticize
 slenderize
@@ -2461,7 +2446,6 @@ supernalize
 supernaturalize
 superorganize
 supersensitize
-supersize
 superspecialize
 supersulfurize
 supersulphurize
@@ -2622,7 +2606,6 @@ underemphasize
 underoxidize
 underprize
 underrealize
-undersize
 underutilize
 undiphthongize
 undualize
@@ -2642,7 +2625,6 @@ unilateralize
 unimmortalize
 unindividualize
 unionize
-unisize
 unitize
 universalize
 universitize
@@ -2693,7 +2675,6 @@ unvulgarize
 unwomanize
 uperize
 upseize
-upsize
 uralitize
 urbanize
 utilitarianize
@@ -2738,7 +2719,6 @@ visualize
 vitalize
 vitaminize
 vitriolize
-vmsize
 vocalize
 vocationalize
 vociferize

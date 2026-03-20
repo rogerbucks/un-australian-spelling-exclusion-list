@@ -2,7 +2,7 @@
 """Expand -ize base verbs into all their word forms.
 
 Usage:
-    python3 expand_ize.py < baseverbs.txt | sort > newwords.txt
+    python3 generate_word_forms.py < ../data/baseverbs.txt | sort > ../output/newwords.txt 
 """
 import sys
 
